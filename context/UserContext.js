@@ -2,7 +2,7 @@ import { useState, createContext, useContext } from "react";
 
 const UserContext = createContext();
 const SetUserContext = createContext();
-
+//improve later with functions inside state
 export function useUser() {
   return useContext(UserContext);
 }
