@@ -34,6 +34,7 @@ export default withApiAuthRequired(async function handler(req, res) {
                     path: {
                       wildcard: "*",
                     },
+                    //fuzzy means not precise searching once its matched
                     fuzzy: {},
                   },
                 },
