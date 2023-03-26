@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. Data API App Id
-appid="<Data API App ID>"
+appid="data-stmih"
 
 # 2. API Key
 apikey="<Data API Key>"
